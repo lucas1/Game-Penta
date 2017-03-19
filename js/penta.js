@@ -432,90 +432,91 @@ var Penta = {
         
         $('#letters_1').on("click",
             function(){
-                self._answer_tmp = 'A';
+                self._answer_tmp = 'C';
                 self.Answer();
             }
         );
         
         $('#letters_2').on("click",
             function(){
-                self._answer_tmp = 'B';
+                self._answer_tmp = 'D';
                 self.Answer();
             }
         );
         
         $('#letters_3').on("click",
             function(){
-                self._answer_tmp = 'C';
+                self._answer_tmp = 'E';
                 self.Answer();
             }
         );
         
         $('#letters_4').on("click",
             function(){
-                self._answer_tmp = 'D';
+                self._answer_tmp = 'F';
                 self.Answer();
             }
         );
         
         $('#letters_5').on("click",
             function(){
-                self._answer_tmp = 'E';
+                self._answer_tmp = 'G';
                 self.Answer();
             }
         );
         
         $('#letters_6').on("click",
             function(){
-                self._answer_tmp = 'F';
+                self._answer_tmp = 'A';
                 self.Answer();
             }
         );
         
         $('#letters_7').on("click",
             function(){
-                self._answer_tmp = 'G';
+                self._answer_tmp = 'B';
                 self.Answer();
             }
-        );
+        );        
         
         $(document).keypress(
             function(e){
                 if(self._where == 2){
                     var code = e.keyCode || e.which;
                     
-                    if(code == 49 || code == 65 || code == 97){
-                        self._answer_tmp = 'A';
-                        self.Answer();                    
-                    }
                     
-                    if(code == 50 || code == 66 || code == 98){
-                        self._answer_tmp = 'B';
-                        self.Answer();                    
-                    }
-                    
-                    if(code == 51 || code == 67 || code == 99){
+                    if(code == 49 || code == 67 || code == 99){
                         self._answer_tmp = 'C';
                         self.Answer();                    
                     }
                     
-                    if(code == 52 || code == 68 || code == 100){
+                    if(code == 50 || code == 68 || code == 100){
                         self._answer_tmp = 'D';
                         self.Answer();                    
                     }
                     
-                    if(code == 53 || code == 69 || code == 101){
+                    if(code == 51 || code == 69 || code == 101){
                         self._answer_tmp = 'E';
                         self.Answer();                    
                     }
                     
-                    if(code == 54 || code == 70 || code == 102){
+                    if(code == 52 || code == 70 || code == 102){
                         self._answer_tmp = 'F';
                         self.Answer();                    
                     }
                     
-                    if(code == 55 || code == 71 || code == 103){
+                    if(code == 53 || code == 71 || code == 103){
                         self._answer_tmp = 'G';
+                        self.Answer();                    
+                    }                    
+                    
+                    if(code == 54 || code == 65 || code == 97){
+                        self._answer_tmp = 'A';
+                        self.Answer();                    
+                    }
+                    
+                    if(code == 55 || code == 66 || code == 98){
+                        self._answer_tmp = 'B';
                         self.Answer();                    
                     }
                 }
