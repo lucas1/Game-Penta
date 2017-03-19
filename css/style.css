@@ -42,6 +42,10 @@ body {
     display: none;
 }
 
+.panel-footer #names button, .panel-footer #letters button {
+    margin-bottom: 4px;
+}
+
 #start {
     display: none;
 }
@@ -300,7 +304,7 @@ body {
     border-radius: 50%;
     height: 14px;
     width: 14px;
-    margin-left: 2.5px;
+    margin-left: 3px;
 }
 
 #ssl_9 .line_button {
@@ -366,7 +370,7 @@ body {
     border-radius: 50%;
     height: 14px;
     width: 14px;
-    margin-left: 2.5px;
+    margin-left: 3px;
 }
 
 #ssl_7 .line_button {
@@ -432,7 +436,7 @@ body {
     border-radius: 50%;
     height: 14px;
     width: 14px;
-    margin-left: 2.5px;
+    margin-left: 3px;
 }
 
 #ssl_5 .line_button {
@@ -505,7 +509,7 @@ body {
     border-radius: 50%;
     height: 14px;
     width: 14px;
-    margin-left: 2.5px;
+    margin-left: 3px;
 }
 
 #ssl_3 .line_button {
@@ -555,7 +559,7 @@ body {
     border-radius: 50%;
     height: 14px;
     width: 14px;
-    margin-left: 2.5px;
+    margin-left: 3px;
 }
 
 #lsl_1 {
@@ -571,7 +575,7 @@ body {
     border-radius: 50%;
     height: 14px;
     width: 14px;
-    margin-left: 2.5px;
+    margin-left: 3px;
 }
 
 #lsl_2 {
@@ -614,7 +618,7 @@ body {
     border-radius: 50%;
     height: 14px;
     width: 14px;
-    margin-left: 2.5px;
+    margin-left: 3px;
 }
 
 #lsl_3 .line_top {
@@ -672,7 +676,7 @@ body {
     border-radius: 50%;
     height: 14px;
     width: 14px;
-    margin-left: 2.5px;
+    margin-left: 3px;
 }
 
 #lsl_5 .line_top {
@@ -738,7 +742,7 @@ body {
     border-radius: 50%;
     height: 14px;
     width: 14px;
-    margin-left: 2.5px;
+    margin-left: 3px;
 }
 
 #lsl_7 .line_top {
@@ -804,7 +808,7 @@ body {
     border-radius: 50%;
     height: 14px;
     width: 14px;
-    margin-left: 2.5px;
+    margin-left: 3px;
 }
 
 #lsl_9 .line_top {
@@ -928,5 +932,13 @@ body {
     
     #start #right {
         width: 100%
-    }      
+    }
+    
+    .panel-footer #names button, .panel-footer #letters button {
+        margin: 4px 4px;
+    }
+    
+    #setting button {
+        margin: 4px 4px;
+    }
 }
