@@ -54,8 +54,10 @@ var Penta = {
         }         
         
         if(self._buttons == 1){
+            $('#letters').css('display', 'none');
             $('#names').css('display', 'block');
         }else{
+            $('#names').css('display', 'none');
             $('#letters').css('display', 'block');
         }
         
@@ -125,15 +127,12 @@ var Penta = {
         var position_x = self.Rand(total_position);
         
         var x = (position_x * 20) + position.left;
-        console.log();
         
         if(ssl > 0){
             ssl = 10 - ssl;
         }else{
             ssl = 10;
         }
-        
-        console.log(ssl);
         
         if(lsl > 0){
             lsl = 10 - lsl;
@@ -142,15 +141,9 @@ var Penta = {
         }
         
         var min = ssl + 1;
-        var max = 29 - lsl;
-        
-         console.log(min);
-        
-        
+        var max = 29 - lsl;     
         
         var r = self.RandMinAndMax(min, max);
-        
-        console.log(r);
         
         if(r >= 1 && r <= 10){
             var r2 = 0;
